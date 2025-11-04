@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const basePath = location.hostname.includes('github.io') ? '/CVprojekt/' : '../';
+    const basePath = location.hostname.includes('github.io') ? '/cvprojekt/' : '../';
 
     const targetImage = document.querySelector('.header-image-container img');
     let i = 1
