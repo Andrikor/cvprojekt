@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const basePath = location.hostname.includes('github.io') ? '/cvprojekt/' : '../';
 
     const targetImage = document.querySelector('.header-image-container img');
-    let i = 1
+    let i = 1;
 
     if (typeof album !== 'undefined' && Array.isArray(album)) {
 
