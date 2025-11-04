@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
 
                 if (i === album.length) {
-                    i = 0
+                    i = 0;
                 }
 
                 targetImage.src = basePath + album[i];
